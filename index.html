@@ -1,0 +1,51 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Calculator</title>
+      <link rel="icon" type="image/png" href="calc.png">
+
+  <link rel="stylesheet" href="./styles.css">
+
+    </head>
+    <body onload= " init();">
+
+
+
+  <div>
+
+  <form action="index.html" method="POST">
+
+
+      <input  class="holder"type="number"  maxlength="8" id="resultado" placeholder="">
+      <br>
+
+
+        <input class="calc" type="button" id="uno" value="1" />
+        <input class="calc"  type="button" id="dos" value="2" />
+        <input class="calc" type="button" id="tres" value="3"/>
+        <input class="calcO" type="button" id="+" value="+">
+        <br>
+        <input class="calc" type="button" id="cuatro" value="4"/>
+        <input class="calc" type="button" id="cinco" value="5"/>
+        <input class="calc" type="button" id="seis" value="6"/>
+        <input class="calcO" type="button" id="-" value="-">
+        <br>
+        <input class="calc" type="button" id="siete" value="7"/>
+        <input class="calc"type="button" id="ocho" value="8"/>
+        <input class="calc"type="button" id="nueve" value="9"/>
+        <input class="calcO"type="button" id="/" value="/">
+        <br>
+        <input class="calc"type="button" id="cero" value="0"/>
+        <input class="calcR"type="button" id="igual" value="="/>
+        <input class="calcRe"type="button" id="reset" value="C">
+        <input class="calcO"type="button" id="*" value="x">
+
+      </form>
+
+  </div>
+
+      <script src="./funcionalidad.js"> </script>
+    </body>
+  </html>

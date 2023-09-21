@@ -1,0 +1,145 @@
+div{
+
+
+    background: #4639ff;  /* fallback for old browsers */
+    
+  border-radius: 12px;  
+ border-style: none  ;   
+width: 380px;
+height: 520px;
+display: flex;
+margin-left: 30%;
+margin-top: 0;
+margin-bottom: 200px;
+align-items: center;
+justify-content: center;
+box-shadow: 20px 20px 50px;
+
+}
+
+input.calc{
+box-shadow: 5px 5px 20px;
+background-color: #a6d7ff  ;
+border-style: none;
+border-style:unset;
+display: inline-block;
+font-size: x-large;
+ margin: 4px;
+width:70px;
+height:70px;
+border-radius: 100%;
+cursor: pointer;
+transition: background-color 0.5s;
+opacity: 0.75   ;
+}
+
+input.calcO{
+    box-shadow: 5px 5px 20px;
+    background-color: #00f7ff  ;
+    border-style: none;
+    border-style:unset;
+    display: inline-block;
+    font-size: x-large;
+     margin: 4px;
+    width:70px;
+    height:70px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    opacity: 0.75   ;
+    }
+
+    
+input.calcR{
+    box-shadow: 5px 5px 20px;
+    background-color: #8d58ff  ;
+    border-style: none;
+    border-style:unset;
+    display: inline-block;
+    font-size: x-large;
+     margin: 4px;
+    width:70px;
+    height:70px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    opacity: 0.75   ;
+    }
+
+    
+    
+input.calcRe{
+    box-shadow: 5px 5px 20px;
+    background-color: #ff00ea  ;
+    border-style: none;
+    border-style:unset;
+    display: inline-block;
+    font-size: x-large;
+     margin: 4px;
+    width:70px;
+    height:70px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    opacity: 0.75   ;
+    }
+    
+
+
+input.calc:hover{
+
+   background-color: rgb(0, 234, 255);
+
+}
+
+input.calcO:hover{
+
+    background-color: rgb(0, 234, 255);
+ 
+ }
+    
+ input.calcR:hover{
+
+    background-color: rgb(0, 234, 255);
+ 
+ }
+
+ input.calcRe:hover{
+
+    background-color: rgb(0, 234, 255);
+ 
+ }
+ 
+ 
+
+
+/* Aca esta el backgroud verde   */
+input.calc:active{
+
+    background: #cc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2200ff, #2a3fa8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff00e1, #00d0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+input.holder{
+width:330px;
+height:70px;
+border-style: none;
+font-size: 70px;
+border-radius: 6px;
+background: #afe2ff;  /* fallback for old browsers */
+margin-bottom: 30px;
+padding-bottom: 30px;
+box-shadow: 5px 5px 10px;
+padding-top: 30px;
+outline-style: none;
+opacity: 0.75;
+}
+
+input.holder::-webkit-inner-spin-button, input.holder::-webkit-outer-spin-button{
+
+        -webkit-appearance: none;
+    }
+
