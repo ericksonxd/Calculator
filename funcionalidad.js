@@ -10,9 +10,8 @@ function init() {
 // deteccion key
 
 
-     
 
-
+   
 
 
 
@@ -140,5 +139,8 @@ function init() {
         resultado.value = parseFloat(ElementoA) / parseFloat(ElementoB);
         break;
     }
-  }
-}
+ 
+
+    }
+  
+ }   
