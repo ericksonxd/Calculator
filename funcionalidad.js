@@ -1,4 +1,5 @@
-var ElementoA;
+try {
+  var ElementoA;
 var ElementoB;
 var operacion;
 var eventSum = false;
@@ -144,3 +145,7 @@ function init() {
     }
   
  }   
+
+} catch (error) {
+  console.log(error);
+}
